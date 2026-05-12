@@ -1,0 +1,38 @@
+//Run Checklist//
+
+Open XAMPP Control Panel.
+
+Start Apache.
+
+Start MySQL.
+
+Open PowerShell in:
+C:\xampp\htdocs\sauyo
+
+Start the frontend:
+
+npm.cmd run dev
+Look at the terminal and note the exact local URL.
+Usually it is:
+http://localhost:8080
+
+Open that exact URL in your browser.
+
+If needed, rerun database setup:
+http://localhost/sauyo/server/setup-db.php
+
+If login/data does not work
+
+Check MySQL is still running.
+Check Apache is still running.
+Check the Vite terminal is still open.
+Refresh the browser.
+If you closed the terminal
+
+Open PowerShell again in C:\xampp\htdocs\sauyo
+Run:
+npm.cmd run dev
+
+Main URLs
+frontend: terminal will show it, usually http://localhost:8080
+PHP setup: http://localhost/sauyo/server/setup-db.php
